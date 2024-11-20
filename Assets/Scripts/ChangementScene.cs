@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChangementScene : MonoBehaviour
 {
@@ -10,9 +10,9 @@ public class ChangementScene : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void loadScene(string ExamenC_01){
+        SceneManager.LoadScene(ExamenC_01);
+
     }
+    
 }
